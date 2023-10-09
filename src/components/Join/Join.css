@@ -1,0 +1,63 @@
+
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+
+.left-j{
+    flex: 1 1;
+    color: white;
+    position: relative;
+}
+
+.left-j>span{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.left-j>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.right-j{
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.right-j>.email{
+    background-color: var(--caloryCard);
+    width: fit-content;
+    padding: 1rem 2rem;
+    display: flex;
+    /* align-items: center; */
+    gap: 3rem;
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.email>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+}
+
+.email>input::placeholder{
+    color: var(--lightgray);
+}
+
+.right-j>.email>button{
+    background-color: var(--orange);
+    color: white;
+}
