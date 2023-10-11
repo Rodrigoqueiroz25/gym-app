@@ -5,7 +5,8 @@
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    margin-bottom: 10rem;
+    position: relative;
+    /* margin-bottom: 10rem; */
 }
 
 .footer>hr{
@@ -27,4 +28,32 @@
 
 .logo>img{
     width: 10rem;
+}
+
+.blurs{
+    display: flex;
+    z-index: -9;
+    position: absolute;
+    bottom: 2rem;
+    gap: 2rem;
+
+}
+
+.footer-blur-1{
+    width: 26rem;
+    height: 12rem;
+    /* bottom: 0; */
+    /* right: 15%; */
+    filter: blur(200px);
+    background-color:rgb(255, 115, 0);
+    
+}
+
+.footer-blur-2{
+    width: 26rem;
+    height: 12rem;
+    /* bottom: 0; */
+    /* left: 15%; */
+    filter: blur(200px);
+    background-color:  red;
 }

@@ -95,3 +95,44 @@
 .img-partners>img{
     width: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .reasons{
+        flex-direction: column;
+    }
+    .left{
+        flex: 1 1;
+        display: grid;
+        overflow: hidden;
+        grid-template-rows: 9rem 9rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        gap: 1rem;   
+    }
+
+
+    .left>:nth-child(1){
+        width: 7rem;
+        height: 18rem;
+    }
+
+    .left>:nth-child(2){
+        width: 15rem;
+        height: 9rem;
+    }
+
+    .left>:nth-child(3){
+        width: 7rem;
+        height: 8rem;
+    }
+
+    .left>:nth-child(4){
+        width: 7rem;
+        height: 8rem;
+    }
+
+    
+
+    
+
+}

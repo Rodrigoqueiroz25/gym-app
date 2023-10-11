@@ -9,6 +9,8 @@ const Plans = () => {
 
     return (
         <section className="plans">
+            <div className="blur plans-blur-1"></div>
+            <div className="blur plans-blur-2"></div>
             <header className='plans-header'>
                 <span className='stroke-text'>ready to start</span>
                 <span>your journey</span>

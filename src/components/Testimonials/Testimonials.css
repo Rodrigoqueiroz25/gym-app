@@ -58,7 +58,6 @@
 
 
 .figure>img{
-    
     width: 17rem;
     height: 20rem;
     object-fit: cover;
@@ -95,5 +94,61 @@
 .arrows>img{
     width: 1.5rem;
     cursor: pointer;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .testimonials{
+        flex-direction: column;
+    }
+
+    
+
+    .left-t>:nth-child(2),
+    .left-t>:nth-child(3){
+        font-size: xx-large;
+    }
+
+    .right-t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .figure{
+        display: grid;
+        grid-template-columns: repeat(21, 1rem);
+        grid-template-rows: repeat(23, 1.2rem);
+    }
+    
+    
+    .figure>img{
+        width: 15rem;
+        height: 18rem;
+        grid-row: 2;
+        grid-column: 4;
+    }
+    
+    .moldura{
+        grid-row: 1;
+        grid-column: 3;
+        width: 15rem;
+        height: 18rem;
+    }
+    
+    .card{
+        grid-row: 4;
+        grid-column: 5;
+        width: 15rem;
+        height: 18rem;
+    }
+
+    .arrows{
+        grid-row: 21;
+        grid-column: 10;
+    }
 
 }
